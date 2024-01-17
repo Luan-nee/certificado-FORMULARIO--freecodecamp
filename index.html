@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title"></h1>
+    <p id="description"></p>
+    <form action="index.html" method="post" id="survey-form">
+        <label for="name" id="name-label">
+            <p>Nombre</p>
+            <input type="text" id="name" placeholder="Ingrese su nombre" required>
+        </label>
+        <label for="email" id="email-label">
+            <p>Correo electrónico</p>
+            <input type="email" id="email" placeholder="Ingrese su correo" required>
+        </label>
+        <label for="number" id="number-label">
+            <p>Edad</p>
+            <input type="number" id="number" min="1" max="120" placeholder="Ingrese su edad" required>
+        </label>
+        <select id="dropdown" required>
+            <option>Escoger</option>
+            <option></option>
+            <option></option>
+        </select>
+        <section>
+            <input type="radio" name="btn_radio" required>
+            <input type="radio" name="btn_radio" required>
+        </section>
+        <section>
+            <input type="checkbox" value="" required>
+            <input type="checkbox" value="" required>
+        </section>
+        <section>
+            <textarea cols="30" rows="10" required></textarea>
+        </section>
+        <input type="submit" value="ENVIAR INFORMACIÓN">
+    </form>
+</body>
+</html>

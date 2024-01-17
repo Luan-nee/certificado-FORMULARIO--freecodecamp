@@ -26,9 +26,6 @@ ofrece la pagina web https://www.freecodecamp.org/
 
 # requerimientos (en español)
 
-    Aquí está la traducción del texto, con las palabras 
-    clave de la sintaxis de HTML5 entre comillas dobles:
-
     "Deberías tener un título de página dentro de un 
     elemento 'h1' con un 'id' de 'title'.
 
@@ -49,6 +46,8 @@ ofrece la pagina web https://www.freecodecamp.org/
     Si ingresaras un correo electrónico que no esté 
     formateado correctamente, verás un error de 
     validación de HTML5.
+    // no comprendo bien a que se refiere con error de
+    // validación exactamente.
 
     Dentro del formulario, puedes ingresar un número en 
     un campo de entrada que tenga un 'id' de 'number'.

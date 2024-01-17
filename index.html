@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORMULARIO</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 id="title"></h1>
-    <p id="description"></p>
+    <h1 id="title">FORMULARIO PARA EMPLEADOS</h1>
+    <p id="description">Esta es una pequeña descriptión del formulario</p>
     <form action="index.html" method="post" id="survey-form">
         <label for="name" id="name-label">
             <p>Nombre</p>
@@ -28,17 +28,17 @@
             <option></option>
         </select>
         <section>
-            <input type="radio" name="btn_radio" required>
-            <input type="radio" name="btn_radio" required>
+            <input type="radio" value="admin" name="btn_radio" required>
+            <input type="radio" value="empleado" name="btn_radio" required>
         </section>
         <section>
-            <input type="checkbox" value="" required>
-            <input type="checkbox" value="" required>
+            <input type="checkbox" value="rojo" required>
+            <input type="checkbox" value="azul" required>
         </section>
         <section>
             <textarea cols="30" rows="10" required></textarea>
         </section>
-        <input type="submit" value="ENVIAR INFORMACIÓN">
+        <input type="submit" value="ENVIAR INFORMACIÓN" id="submit">
     </form>
 </body>
 </html>
